@@ -1,10 +1,10 @@
 [![Community badge: Incubating](https://img.shields.io/badge/Lifecycle-Incubating-blue)](https://github.com/Camunda-Community-Hub/community/blob/main/extension-lifecycle.md#incubating-)
 [![Community extension badge](https://img.shields.io/badge/Community%20Extension-An%20open%20source%20community%20maintained%20project-FF4700)](https://github.com/camunda-community-hub/community)
 
-# Zeebe Worker Java Template
+# Zeebe Worker Scala Template
 
 Minimal template for a [Zeebe](https://github.com/camunda-cloud/zeebe)
-Java [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). This template adds only the bare minimum
+Scala [worker](https://docs.camunda.io/docs/components/concepts/job-workers/). This template adds only the bare minimum
 of dependencies.
 
 If you want something more convenient, have a look
@@ -12,7 +12,7 @@ at [Spring Zeebe](https://github.com/camunda-community-hub/spring-zeebe).
 
 ## How to Use
 
-The main method is in `Worker.java`. It requires a couple of environment variables to run.
+The main method is in `Worker.scala`. It requires a couple of environment variables to run.
 
 ### Connection Setup
 
